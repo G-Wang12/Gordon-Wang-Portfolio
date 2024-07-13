@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import headShot from "../../Assets/gordon-wang-headshot.jpg";
 
 function Home2() {
   return (
@@ -18,7 +19,7 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>Quick Intro on Myself</h1>
             <p className="home-about-body">
               I am a passionate student at the University of Waterloo for
-              Computer Science and Finance
+              Computer Science and Financial Management
               <br />
               <br />I am fluent in popular languages like
               <i>
@@ -50,16 +51,22 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={headShot}
+                width={300}
+                height={300}
+                className="img-fluid"
+                alt="avatar"
+              />
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
+            <h1>CONNECT WITH ME</h1>
+            {/* <p>
               Feel free to <span className="purple">connect </span>with me
-            </p>
+            </p> */}
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
