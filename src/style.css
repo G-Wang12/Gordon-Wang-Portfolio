@@ -18,6 +18,10 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+/* .yellow {
+  color: #ebeb2b;
+} */
+
 button:focus {
   box-shadow: none !important;
 }
@@ -257,7 +261,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -448,7 +452,9 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
+  background-image: url(./Assets/cool-background1.png) !important;
+  background-size: cover;
 }
 
 .project-card {
@@ -546,8 +552,10 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
+  /* background-image: var(--section-background-color) !important;
+  color: white !important; */
+  background-image: url(./Assets/cool-background1.png) !important;
+  background-size: cover;
 }
 
 .tech-icons {

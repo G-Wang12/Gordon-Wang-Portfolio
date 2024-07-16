@@ -18,19 +18,21 @@ function Home2() {
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>Quick Intro on Myself</h1>
             <p className="home-about-body">
-              I am a passionate student at the University of Waterloo for
-              Computer Science and Financial Management
+              I am a student at the University of Waterloo for Computer Science
+              and Financial Management.
               <br />
               <br />I am fluent in popular languages like
               <i>
                 <b className="purple"> Python, Java, JavaScript, C, and SQL </b>
               </i>
+              .
               <br />
               <br />I am particularly passionate about{" "}
               <i>
                 <b className="purple">Financial Technologies</b> and{" "}
                 <b className="purple">Web Applications</b>
               </i>
+              .
               <br />
               <br />I have practical experience working with{" "}
               <b className="purple">React.js</b> for frontend applications,{" "}
