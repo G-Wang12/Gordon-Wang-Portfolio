@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -9,6 +8,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import headShot from "../../Assets/gordon-wang-headshot.jpg";
+import selfie from "../../Assets/selfie.png";
 
 function Home2() {
   return (
@@ -54,7 +54,7 @@ function Home2() {
           <Col md={4} className="myAvtar">
             <Tilt>
               <img
-                src={headShot}
+                src={selfie}
                 width={300}
                 height={300}
                 className="img-fluid"

@@ -1,17 +1,18 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
-import Github from "./Github";
+// import Particle from "../Particle";
+// import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+// import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import headshot from "../../Assets/gordon-wang-headshot.jpg";
+// import headshot from "../../Assets/gordon-wang-headshot.jpg";
+import soccer from "../../Assets/soccer.jpg";
 
 function About() {
   return (
     <Container fluid className="about-section">
-      <Particle />
+      {/* <Particle /> */}
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
@@ -33,9 +34,9 @@ function About() {
             className="about-img"
           >
             <img
-              src={headshot}
+              src={soccer}
               alt="about"
-              width={250}
+              width={350}
               height={250}
               className="img-fluid"
             />

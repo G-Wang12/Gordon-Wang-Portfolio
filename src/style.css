@@ -15,7 +15,7 @@ html {
 }
 
 .purple {
-  color: var(--imp-text-color) !important;
+  color: #8a2be2 !important;
 }
 
 /* .yellow {
@@ -87,6 +87,7 @@ button:focus {
 }
 
 .navbar {
+  background-color: #1b1a2ea9;
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
@@ -270,7 +271,7 @@ button:focus {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+  color: #4f4f4f;
   text-align: left;
 }
 
@@ -328,7 +329,7 @@ button:focus {
 }
 
 .home-about-description {
-  color: white !important;
+  color: #4f4f4f !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
@@ -343,7 +344,7 @@ button:focus {
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;
-  color: white !important;
+  color: #4f4f4f !important;
 }
 
 .home-about-social-links {

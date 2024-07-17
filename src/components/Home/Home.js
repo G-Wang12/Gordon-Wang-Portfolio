@@ -4,12 +4,13 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import headShot from "../../Assets/gordon-wang-headshot.jpg";
 
 function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
+        {/* <Particle /> */}
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -32,7 +33,7 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeLogo}
+                src={headShot}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
