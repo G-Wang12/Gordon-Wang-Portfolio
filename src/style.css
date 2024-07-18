@@ -555,7 +555,7 @@ button:focus {
   padding-bottom: 30px !important;
   /* background-image: var(--section-background-color) !important;
   color: white !important; */
-  background-image: url(./Assets/cool-background1.png) !important;
+  background-image: url(./Assets/cool-background1.png);
   background-size: cover;
 }
 

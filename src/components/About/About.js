@@ -8,6 +8,7 @@ import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
 // import headshot from "../../Assets/gordon-wang-headshot.jpg";
 import soccer from "../../Assets/soccer.jpg";
+import Experience from "./Experience";
 
 function About() {
   return (
@@ -42,6 +43,8 @@ function About() {
             />
           </Col>
         </Row>
+        <h1>My Professional Experiences</h1>
+        <Experience />
         <h1 className="project-heading">
           Technical <strong className="purple">Skillset </strong>
         </h1>
