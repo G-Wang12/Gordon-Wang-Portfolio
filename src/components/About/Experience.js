@@ -5,6 +5,7 @@ import ExperienceCard from "./ExperienceCard";
 import agi from "../../Assets/agi.jpeg";
 import waterloop from "../../Assets/Waterloop.png";
 import g12 from "../../Assets/g12.png";
+import ExperienceCarousel from "./ExperienceCarousel";
 
 // const ExpContainer = styled.div`
 //   display: flex;
@@ -41,7 +42,8 @@ const TitleText = styled.div`
 const Experience = () => {
   return (
     <ExpContainer>
-      <ExperienceCard
+        <ExperienceCarousel />
+      {/* <ExperienceCard
         title="Software Develper Co-op"
         company="Advantage Group International"
         link="https://www.advantagegroup.com/"
@@ -75,10 +77,10 @@ const Experience = () => {
         logo={g12}
         duration="Nov 2023 - Apr 2024"
         details={[
-          "Front-end Web Development: React/React Hooks/Route/CSS/NextUI for Web development.",
-          "Back-end Web Development: Firebase for APIs and Database development.",
+          "Front-end Web Development (React/Route/CSS/NextUI): Developed dynamic web pages with responsive design while optimizing existing components.",
+          "Back-end Web Development (Firebase): Integrated RESTful APIs and managed database updates.",
         ]}
-      />
+      /> */}
       {/* <Exp>
         <JobTitle>
           <TitleText>

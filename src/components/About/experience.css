@@ -1,0 +1,35 @@
+/* Carousel.css */
+.carousel-container {
+  width: 100%;
+  max-width: 900px; /* Set a maximum width for the carousel */
+  margin: 0 auto; /* Center the carousel */
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* Set a fixed height for the slides */
+  margin-bottom: 20px;
+}
+.round-button {
+  background-color: #1d4ed8; /* blue-700 */
+  color: white;
+  padding: 0.625rem; /* 2.5 */
+  border-radius: 9999px; /* fully rounded */
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 500; /* font-medium */
+  text-align: center;
+  transition: background-color 0.2s;
+  outline: none;
+}
+
+.round-button:hover {
+  background-color: #1e40af; /* blue-800 */
+}
+
+.round-button:focus {
+  background-color: #2563eb; /* focus:ring-blue-300 */
+}
