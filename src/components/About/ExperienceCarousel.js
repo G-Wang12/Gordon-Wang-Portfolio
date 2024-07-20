@@ -97,8 +97,8 @@ const ExperienceCarousel = () => {
   return (
     <div className="carousel-container">
       <CarouselProvider
-        naturalSlideWidth={100}
-        naturalSlideHeight={50}
+        // naturalSlideWidth={100}
+        // naturalSlideHeight={50}
         totalSlides={3}
       >
         <Slider>
