@@ -28,7 +28,7 @@ function Projects() {
               title="Cali Camp"
               description="A website developed with React.js to help promote a friend’s summer camp. Google Analytics was integrated to view user statistics."
               ghLink="https://github.com/G-Wang12/Summer-Camp-Site"
-              // demoLink="https://chatify-49.web.app/"
+              demoLink="https://cali-camp-toronto.vercel.app/"
             />
           </Col>
 
