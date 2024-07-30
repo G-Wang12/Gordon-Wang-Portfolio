@@ -764,3 +764,18 @@ button:focus {
   height: 50px;
   width: 70px;
 }
+
+.navbar-name {
+  font-family: 'Roboto', sans-serif; /* Choose an appealing font */
+  font-size: 1.5rem; /* Adjust the size to make it stand out */
+  font-weight: bold; /* Make the text bold */
+  /* color: #4a90e2;  */
+  color: #6f42c1;
+  text-transform: uppercase; /* Transform the text to uppercase for a logo-like appearance */
+  letter-spacing: 0.1rem; /* Add some spacing between the letters */
+  padding: 0.5rem 1rem; /* Add some padding for visual appeal */
+  background-color: #ffffff; 
+  border-radius: 5px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+}

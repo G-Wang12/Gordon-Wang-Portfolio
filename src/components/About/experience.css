@@ -16,7 +16,8 @@
   background-color: #1d4ed8; /* Blue background */
   color: white; /* White text */
   padding: 0.625rem; /* 10px padding */
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   border-radius: 9999px; /* Fully round */
   display: inline-flex;
   align-items: center;

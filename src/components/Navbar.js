@@ -41,8 +41,11 @@ function NavBar() {
         {/* <Navbar.Brand href="/" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" style={{ height: '40px !important', width: '40px !important' }} />
         </Navbar.Brand> */}
-        <div className="navbar-logo">
+        {/* <div className="navbar-logo">
           <img src={logo} alt="brand" />
+        </div> */}
+        <div className="navbar-name">
+          Gordon Wang
         </div>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
