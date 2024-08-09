@@ -97,8 +97,6 @@ const ExperienceCarousel = () => {
   return (
     <div className="carousel-container">
       <CarouselProvider
-        // naturalSlideWidth={100}
-        // naturalSlideHeight={50}
         totalSlides={3}
       >
         <Slider>
@@ -115,7 +113,7 @@ const ExperienceCarousel = () => {
                 "Front-end (Angular): Feature and performance enhancements for the Angular application that provides a user-friendly interface for data management.",
                 "Data Migration: Orchestrated a data migration by developing SQL scripts to migrate data between PostgreSQL tables. Ensured data accuracy and integrity throughout the migration process.",
                 "Tableau: Engineered data visualizations and reports using historical user geographic data in Tableau.",
-                "Agile Development Cycle: Daily scrums, code reviews, and continuous iteration.",
+                "Agile Development Cycle: Daily scrums, code reviews, Git version control, and CI/CD.",
               ]}
             />
           </Slide>
@@ -129,7 +127,7 @@ const ExperienceCarousel = () => {
               details={[
                 "Front-end Development (React/Typescript/React Hooks/Route/Redux/Styled-components/CSS/Figma): Worked closely with UX/UI designers and other developers to ensure that the features meet both aesthetic and functional requirements. Notable tasks include developing an Amazon-like eCommerce web page featuring product listing and product details pages.",
                 "Back-end Development (Node.js/Express/Knex): Worked with queries and APIs to connect Content Management Site with Main Website. Notable tasks include implementing an entire Google Authentication feature and a popup dialogue for users to send Gmails using Gmail API.",
-                "Leadership Role: Organized all the meetings, planned the term goals and delegate different task.",
+                "Leadership Role: Organized all the meetings, planned the term goals and delegated different tasks.",
               ]}
             />
           </Slide>
