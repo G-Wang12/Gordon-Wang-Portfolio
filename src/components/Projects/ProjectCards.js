@@ -18,14 +18,16 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
+        {/* {"\n"} */}
+        <div className="tech-stack">Tech Stack: {props.techStack}</div>
         {props.ghLink && (
           <Button variant="primary" href={props.ghLink} target="_blank">
             <BsGithub /> &nbsp; Github
           </Button>
         )}
 
-        {"\n"}
-        {"\n"}
+        {/* {"\n"}
+        {"\n"} */}
         {props.demoLink && (
           <Button
             variant="primary"

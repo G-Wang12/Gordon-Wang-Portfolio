@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.project-card-view .tech-stack {
+  font-weight: bold;
+  font-size: 1em;
+  color: #6f42c1; /* Purple color */
+  margin-top: 20px;
+  margin-bottom: 15px;
+}

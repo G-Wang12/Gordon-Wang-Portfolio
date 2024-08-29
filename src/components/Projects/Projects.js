@@ -29,6 +29,7 @@ function Projects() {
               description="A website developed with React.js to help promote a friend’s summer camp. Google Analytics was integrated to view user statistics."
               ghLink="https://github.com/G-Wang12/Summer-Camp-Site"
               demoLink="https://cali-camp-toronto.vercel.app/"
+              techStack="React, Typescript, Javascript, HTML, CSS, Bash"
             />
           </Col>
 
@@ -39,7 +40,7 @@ function Projects() {
               title="Robo Stock Portfolio Advisor"
               description="Python program that consumes a list of stocks and generates the safest possible portfolio from the given stocks. Designed and programmed an algorithm to compare the correlation between different stocks’ historical data. The least uncorrelated group of stock is picked in order to diversify the portfolio."
               ghLink="https://github.com/G-Wang12/Safe-Portfolio-Robo-Advising"
-              // demoLink="https://blogs.soumya-jit.tech/"
+              techStack="Python, Panda, NumPy, Jupyter Notebook, yfinance, Bash"
             />
           </Col>
 
@@ -49,8 +50,8 @@ function Projects() {
               isBlog={false}
               title="G12 Uni Website"
               description="Platform to simplify the university selection process for high school students by connecting them with their university community and guiding them to find the right university and major."
-              // ghLink="https://github.com/G-Wang12/Editor.io"
               demoLink="https://g12uni.com/"
+              techStack="React, Firebase"
             />
           </Col>
 
@@ -62,6 +63,7 @@ function Projects() {
               description="Site to represent Waterloop professionally so we can help establish and sustain our network of supporters and sponsors, as well as showcase all the cool stuff the team is working on. Also includes a recruitment section."
               ghLink="https://github.com/waterloop/waterloop-website"
               demoLink="https://teamwaterloop.ca/"
+              techStack="React, Typescript, Redux, Styled-components, HTML, CSS, REST API, Bash"
             />
           </Col>
 
@@ -72,7 +74,7 @@ function Projects() {
               title="Waterloop CMS"
               description="Content Management System for Waterloop sites. Allows executives to directly update the content on main site without needing to change the codebase themselves."
               ghLink="https://github.com/waterloop/waterloop-cms"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              techStack="React, Typescript, Javascript, Redux, Node.js, Express.js, HTML, CSS, Docker"
             />
           </Col>
 
@@ -83,7 +85,7 @@ function Projects() {
               title="Waterloop Executive Dashboard"
               description="An all-in-one ATS and member analytics tool used by anyone in a lead position."
               ghLink="https://github.com/waterloop/executive-dashboard"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+              techStack="React, Typescript, Redux, Styled-components, HTML, CSS, Docker"
             />
           </Col>
         </Row>
