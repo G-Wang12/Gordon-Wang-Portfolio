@@ -13,6 +13,7 @@ const CardContainer = styled.div`
   width: 100%;
   max-width: 900px; /* Max width for responsiveness */
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  overflow-y: auto;
 `;
 
 const Title = styled.h1`
