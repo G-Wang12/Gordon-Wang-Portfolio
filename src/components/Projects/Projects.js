@@ -8,6 +8,7 @@ import g12uni from "../../Assets/Projects/g12-uni.png";
 import mainSite from "../../Assets/Projects/main-site.png";
 import cmsSite from "../../Assets/Projects/waterloop-cms.png";
 import executiveDashboard from "../../Assets/Projects/executive-dashboard.png";
+import neuroGuard from "../../Assets/Projects/NeuroGuardPic.png";
 
 function Projects() {
   return (
@@ -23,16 +24,14 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={summerCamp}
+              imgPath={neuroGuard}
               // isBlog={false}
-              title="Cali Camp"
-              description="A website developed with React.js to help promote a friend’s summer camp. Google Analytics was integrated to view user statistics."
-              ghLink="https://github.com/G-Wang12/Summer-Camp-Site"
-              demoLink="https://cali-camp-toronto.vercel.app/"
-              techStack="React, Typescript, Javascript, HTML, CSS, Bash"
+              title="NeuroGuard"
+              description="Full-stack application that uses AI/ML video recognition to detect falls and provide real-time support to aid caregivers, ensuring Alzheimer's patients stay safe even when memories slip away."
+              ghLink="https://github.com/G-Wang12/htn24-alzhimerdetection"
+              techStack="Python, Flask, React, OpenCV, MediaPipe, Axios, TensorFlow"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={stockImg}
@@ -43,6 +42,19 @@ function Projects() {
               techStack="Python, Panda, NumPy, Jupyter Notebook, yfinance, Bash"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={summerCamp}
+              // isBlog={false}
+              title="Cali Camp"
+              description="A website developed with React.js to help promote a friend’s summer camp. Google Analytics was integrated to view user statistics."
+              ghLink="https://github.com/G-Wang12/Summer-Camp-Site"
+              demoLink="https://cali-camp-toronto.vercel.app/"
+              techStack="React, Typescript, Javascript, HTML, CSS, Bash"
+            />
+          </Col>
+
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
