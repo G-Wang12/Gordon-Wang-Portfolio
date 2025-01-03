@@ -18,27 +18,32 @@ function Home2() {
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>Quick Intro on Myself</h1>
             <p className="home-about-body">
-              I am a student at the University of Waterloo for Computer Science
-              and Financial Management.
+              I am a student at the University of Waterloo for a double major in 
+              {" "}<b className="purple">Computer Science</b>{" "} and {" "}
+              <b className="purple">Finance</b>.
               <br />
               <br />I am fluent in popular languages like
               <i>
-                <b className="purple"> Python, Java, JavaScript, C, and SQL </b>
+                <b className="purple"> Python, Java, JavaScript, C, C++, and SQL </b>
               </i>
               .
               <br />
               <br />I am particularly passionate about{" "}
               <i>
-                <b className="purple">Financial Technologies</b> and{" "}
-                <b className="purple">Web Applications</b>
+                <b className="purple">Financial Technologies</b>,{" "}
+                <b className="purple">Quantitative Finance</b>,{" "}
+                <b className="purple">Web Applications</b>,{" "} and {" "}
+                <b className="purple">Machine Learning</b>
               </i>
               .
               <br />
-              <br />I have practical experience working with{" "}
+              <br />I have experiences in <b className="purple">Full-stack Development</b>,{" "} 
+              <b className="purple">Data Engineering</b>,{" "} and <b className="purple">AI/ML Applications</b>
+              {/* <br />I have practical experience working with{" "}
               <b className="purple">React.js</b> for frontend applications,{" "}
               <b className="purple">Java Spring Boot</b> for backend
               applications, and <b className="purple">PostgreSQL</b> for
-              databases.
+              databases. */}
               {/* <i>
                 <b className="purple">
                   {" "}
