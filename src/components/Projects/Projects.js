@@ -9,6 +9,7 @@ import mainSite from "../../Assets/Projects/main-site.png";
 import cmsSite from "../../Assets/Projects/waterloop-cms.png";
 import executiveDashboard from "../../Assets/Projects/executive-dashboard.png";
 import neuroGuard from "../../Assets/Projects/NeuroGuardPic.png";
+import taxSmart from "../../Assets/Projects/taxSmart.png";
 
 function Projects() {
   return (
@@ -22,6 +23,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={taxSmart}
+              // isBlog={false}
+              title="Tax Smart"
+              description="Website that simplifies financial literacy for young adults by combining tax analytics, AI-powered virtual assistance, secure data storage, tax reminders, and a content creation studio—all in one web app."
+              demoLink="https://t.bananotes.com/"
+              ghLink="https://github.com/orgs/Geesehacks-2025/repositories"
+              devPost="https://devpost.com/software/tax-smart?"
+              techStack="Ruby on Rails, SQLite, Next.js, AWS"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={neuroGuard}
@@ -29,6 +42,7 @@ function Projects() {
               title="NeuroGuard"
               description="Full-stack application that uses AI/ML video recognition to detect falls and provide real-time support to aid caregivers, ensuring Alzheimer's patients stay safe even when memories slip away."
               ghLink="https://github.com/G-Wang12/htn24-alzhimerdetection"
+              devPost="https://devpost.com/software/neuroguard-1cbg2d?"
               techStack="Python, Flask, React, OpenCV, MediaPipe, Axios, TensorFlow"
             />
           </Col>
@@ -47,14 +61,12 @@ function Projects() {
               imgPath={summerCamp}
               // isBlog={false}
               title="Cali Camp"
-              description="A website developed with React.js to help promote a friend’s summer camp. Google Analytics was integrated to view user statistics."
+              description="React website for the promotion of a student-ran summer camp."
               ghLink="https://github.com/G-Wang12/Summer-Camp-Site"
               demoLink="https://cali-camp-toronto.vercel.app/"
               techStack="React, Typescript, Javascript, HTML, CSS, Bash"
             />
           </Col>
-
-          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -72,7 +84,7 @@ function Projects() {
               imgPath={mainSite}
               isBlog={false}
               title="Waterloop Main Site"
-              description="Site to represent Waterloop professionally so we can help establish and sustain our network of supporters and sponsors, as well as showcase all the cool stuff the team is working on. Also includes a recruitment section."
+              description="Website to represent Waterloop professionally so we can help establish and sustain our network of supporters and sponsors, as well as showcase all the cool stuff the team is working on. Also includes a recruitment section."
               ghLink="https://github.com/waterloop/waterloop-website"
               demoLink="https://teamwaterloop.ca/"
               techStack="React, Typescript, Redux, Styled-components, HTML, CSS, REST API, Bash"

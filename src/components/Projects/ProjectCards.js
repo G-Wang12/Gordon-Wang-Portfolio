@@ -36,7 +36,18 @@ function ProjectCards(props) {
             style={{ marginLeft: "10px" }}
           >
             <CgWebsite /> &nbsp;
-            {"Website Link"}
+            {"Website"}
+          </Button>
+        )}
+        {props.devPost && (
+          <Button
+            variant="primary"
+            href={props.devPost}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp;
+            {"DevPost"}
           </Button>
         )}
       </Card.Body>
