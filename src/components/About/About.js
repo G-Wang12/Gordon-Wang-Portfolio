@@ -38,8 +38,8 @@ function About() {
             />
           </Col>
         </Row>
-        <h1 className="project-heading">My Professional <strong className="purple">Experiences</strong></h1>
-        <Experience />
+        {/* <h1 className="project-heading">My Professional <strong className="purple">Experiences</strong></h1>
+        <Experience /> */}
         <h1 className="project-heading">
           Technical <strong className="purple">Skillset </strong>
         </h1>

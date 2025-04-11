@@ -1,0 +1,10 @@
+/* Add any additional styling here */
+.experience-section {
+  padding: 80px 0;
+}
+
+@media (max-width: 768px) {
+  .experience-section {
+    padding: 60px 0;
+  }
+}

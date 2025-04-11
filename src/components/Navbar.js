@@ -11,6 +11,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { FaBriefcase } from "react-icons/fa";
 
 import { CgFileDocument } from "react-icons/cg";
 import logo from "../Assets/gordon-wang-high-resolution-logo.png";
@@ -44,9 +45,7 @@ function NavBar() {
         {/* <div className="navbar-logo">
           <img src={logo} alt="brand" />
         </div> */}
-        <div className="navbar-name">
-          Gordon Wang
-        </div>
+        <div className="navbar-name">Gordon Wang</div>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -78,6 +77,19 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaBriefcase
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Experience
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/projects"
                 onClick={() => updateExpanded(false)}
               >
@@ -87,7 +99,7 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-{/* 
+            {/* 
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -98,7 +110,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item> */}
 
-            <Nav.Item className="fork-btn">
+            {/* <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/G-Wang12/Gordon-Wang-Portfolio"
                 target="_blank"
@@ -107,7 +119,7 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

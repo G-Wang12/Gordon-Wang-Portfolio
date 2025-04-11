@@ -16,8 +16,7 @@ function AboutCard() {
             </span>
             .
             <br />
-            I am currently doing my co-op as a Software Developer at Advantage
-            Group International.
+            I am currently working at Shopify as a Software Engineering Intern.
             <br />
             <br />
             Apart from coding, here are my other hobbies:
