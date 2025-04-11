@@ -9,14 +9,14 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "left" }}>
             My name is <span className="purple">Gordon Wang. </span>
-            <br />I am currently a student at{" "}
-            <span className="purple">The University of Waterloo </span> for{" "}
+            <br />I'm a student at the{" "}
+            <span className="purple">University of Waterloo </span> for{" "}
             <span className="purple">
-              Computer Science and Financial Management
+              Computer Science & Finance
             </span>
             .
             <br />
-            I am currently working at Shopify as a Software Engineering Intern.
+            I'm currently working at <span className="purple">Shopify </span> as a Software Engineering Intern.
             <br />
             <br />
             Apart from coding, here are my other hobbies:
