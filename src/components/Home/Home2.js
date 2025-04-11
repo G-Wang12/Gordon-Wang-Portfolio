@@ -18,11 +18,11 @@ function Home2() {
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>Quick Intro on Myself</h1>
             <p className="home-about-body">
-              I am a student at the University of Waterloo for a double major in 
-              {" "}<b className="purple">Computer Science</b>{" "} and {" "}
+              I'm a student at the University of Waterloo for a double major in 
+              {" "}<b className="purple">Computer Science</b>{" "} & {" "}
               <b className="purple">Finance</b>.
               <br />
-              <br />I am fluent in popular languages like
+              <br />I'm fluent in popular languages like
               <i>
                 <b className="purple"> Python, Java, JavaScript, C, C++, and SQL </b>
               </i>
@@ -32,7 +32,7 @@ function Home2() {
               <i>
                 <b className="purple">Financial Technologies</b>,{" "}
                 <b className="purple">Quantitative Finance</b>,{" "}
-                <b className="purple">Web Applications</b>,{" "} and {" "}
+                <b className="purple">Backend Development</b>,{" "} and {" "}
                 <b className="purple">Machine Learning</b>
               </i>
               .
