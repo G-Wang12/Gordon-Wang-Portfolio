@@ -27,7 +27,7 @@ export const experiences = [
     details: [
       "Hackathon Winner → Production Project (React Native, fal.ai): Won Shopify's internal hackathon by developing an AI-powered podcast app prototype that generated personalized merchant advice. The concept was so well-received that I was moved to the mobile team to develop it into a full production feature.",
       "Merchant Analytics (React, React Native): Enhanced the merchant experience by implementing new data visualization components and fixing critical UI bugs in the analytics dashboard used by over 2 million Shopify store owners.",
-      "Back-end Optimization (Ruby on Rails, GraphQL): Improved analytics query performance by 20% through strategic migration to frozen records, reducing page load times significantly for merchants.",
+      "Back-end AI Optimizations (Ruby on Rails, GPT-4o): Boosted AI podcast generation speed by 50% with new implementations of asynchronous processing and optimized AI prompt design.",
       "Agile Development: Participated in frequent standups, sprint planning, and code reviews as part of Shopify's fast-paced engineering culture."
     ]
   },
