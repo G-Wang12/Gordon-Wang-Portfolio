@@ -23,13 +23,14 @@ const Title = styled.h2`
 `;
 
 const Company = styled.a`
-  display: flex;
+  display: inline-flex; /* Changed from flex to inline-flex */
   align-items: center;
   color: #6e45e2;
   font-size: 1.1rem;
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-weight: 600;
+  width: fit-content; /* Added to ensure the link only takes up necessary space */
 
   &:hover {
     text-decoration: underline;

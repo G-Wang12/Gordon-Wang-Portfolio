@@ -14,9 +14,9 @@ export const experiences = [
     duration: "May 2025 – Aug 2025",
     logo: msftLogo,
     location: "Redmond, WA",
-    techStack: ["Azure", "C#", ".NET"],
+    techStack: ["C", "C++"],
     details: [
-      "Joining Microsoft Azure Core in Redmond, WA for summer 2025 internship program."
+      "Microsoft Azure Files."
     ]
   },
   {
@@ -87,7 +87,7 @@ export const experiences = [
     techStack: ["React", "TypeScript", "Node.js", "Express.js", "PostgreSQL"],
     details: [
       "Front-end Development: Led the redesign of the team website, implementing modern UI components that improved user engagement metrics.",
-      "Key enhencements: Implemented a new search algorithm for searching on the Analytics dashboard",
+      // "Key enhencements: Implemented a new search algorithm for searching on the Analytics dashboard",
       "Back-end Systems: Implemented Google OAuth authentication and developed API endpoints for content management.",
       "Team Leadership: Led the team to implement 50% of a project's features within 4 months."
     ]
