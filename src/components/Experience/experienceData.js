@@ -8,15 +8,15 @@ import msftLogo from "../../Assets/msft-logo.png";
 
 export const experiences = [
   {
-    title: "Incoming Software Engineering Intern",
+    title: "Software Engineering Intern",
     company: "Microsoft",
     link: "https://www.microsoft.com/",
-    duration: "May 2025 – Aug 2025",
+    duration: "May 2025 – Present",
     logo: msftLogo,
     location: "Redmond, WA",
     techStack: ["C", "C++"],
     details: [
-      "Microsoft Azure Files."
+      "Azure File Storage Team"
     ]
   },
   {
@@ -24,8 +24,8 @@ export const experiences = [
     company: "Shopify",
     link: "https://www.shopify.com/",
     logo: shopifyLogo,
-    duration: "Jan 2025 - Present",
-    location: "Toronto, ON (Remote)",
+    duration: "Jan 2025 - Apr 2025",
+    location: "Toronto, ON",
     techStack: ["Ruby on Rails", "GPT-4o", "React", "React Native", "TypeScript"],
     details: [
       "Hackathon Winner → Production Project: Won Shopify's internal hackathon by developing an AI-powered podcast app prototype that generated personalized merchant advice. The concept was so well-received that I was moved to the mobile team to develop it into a full production feature.",
