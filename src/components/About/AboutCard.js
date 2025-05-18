@@ -16,7 +16,7 @@ function AboutCard() {
             </span>
             .
             <br />
-            I'm currently working at <span className="purple">Shopify </span> as a Software Engineering Intern.
+            I'm currently working at <span className="purple">Microsoft </span> as a Software Engineering Intern.
             <br />
             <br />
             Apart from coding, here are my other hobbies:
